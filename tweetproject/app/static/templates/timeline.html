@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="">
+
+	<title>Twitter Timeline Summary</title>
+
+	<link rel="shortcut icon" href="">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="{% static 'css/custom.css' %}" media="screen">
+</head>
+
+<div class='content'>
+
+	<!-- Profile Block -->
+	<div class='profile'>
+	</div>
+
+	<!-- Timeline Block -->
+	<div class='timeline'>
+
+		<!-- Title -->
+		<div class="title">
+			<p>Timeline Summary</p>
+		</div>
+
+		<!-- Tweets -->
+		{% for tweet in tweets %}
+			<div class="tweet">
+				<p>{{ tweet }}</p>
+			</div>
+		{% endfor %}
+	</div>
+
+</div>
+
+
+</html>

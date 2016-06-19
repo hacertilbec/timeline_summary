@@ -1,0 +1,35 @@
+.content {
+	margin: 30px 80px 30px 10px;
+}
+
+.timeline {
+	background-color: #e1e8ed;
+	margin-left:350px;
+	border:1px solid #e1e8ed;
+	height:1000px;
+}
+
+.tweet {
+	background-color: #fff;
+    border-bottom: 1px solid #e1e8ed;
+    cursor: pointer;
+	border: 1px solid #e1e8ed;
+	border-radius: 1px;
+	padding:2px 12px 2px 12px;
+}
+
+.tweet:hover {
+    background-color: #f5f8fa;
+}
+p.tweet {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+.title {
+	border:1px solid #e1e8ed;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;  
+}
